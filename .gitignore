@@ -1,0 +1,17 @@
+# Visual Studio and build outputs (contain machine-specific paths)
+.vs/
+**/bin/
+**/obj/
+*.user
+*.suo
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+appsettings.local.json
+appsettings.*.local.json
+secrets.json
+*.pfx
+*.p12
+*.key
